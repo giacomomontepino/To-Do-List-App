@@ -1,0 +1,22 @@
+@import "./utilitys";
+
+.divDelete{
+    display: flex;
+    justify-content: end;
+    align-items: end;
+
+    .deleteButton{
+        margin: 0px 10px 0px 10px;
+        border: 1px solid $primary-color;
+        border-radius: 5px;
+        padding: 4px;
+        cursor: pointer;
+        font-size: 10px;
+        font-weight: 500;
+        color: $primary-color;
+        background: $button-color;
+        &:hover{
+            background: rgba(243, 192, 5, 0.8);
+        }
+    }
+}

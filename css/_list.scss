@@ -1,0 +1,29 @@
+@import "./utilitys";
+
+.list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 100px 0px 100px;
+    background: $list-color;
+    margin: 5px;
+    border: 1px solid $list-color;
+    border-radius: 5px;
+
+
+    .item{
+        padding: 10px;
+        list-style: none;
+        display: flex;
+        align-items: center;
+        flex-direction: row-reverse;
+        justify-content: start;
+
+
+        .checkbox{
+            margin: 0px 10px 0px 10px;
+            border: 1px solid $primary-color;
+            border-radius: 5px;
+        }
+    }
+}

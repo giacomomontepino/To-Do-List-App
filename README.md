@@ -11,6 +11,9 @@ Una semplice applicazione To-Do List per gestire le attività quotidiane. Gli ut
 # 🎯 Funzionalità
 
 ✅ Aggiungere nuove attività alla lista
+
 ✅ Contrassegnare un'attività come completata
+
 ✅ Eliminare attività dalla lista
+
 ✅ Interfaccia pulita e reattiva
